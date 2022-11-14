@@ -100,7 +100,7 @@ nav .logo{
     font-size: 30px;
     color: gray;
     margin: 20px 0px;
-    width: 650px;
+    width: 80%;
 }
 
 .button_1 > button{
@@ -872,6 +872,7 @@ nav .logo{
 }
 .section10 .map-wrapper{
     overflow: hidden;
+    width: 100%;
     /* padding: 40px */
 }
 .section10 .form{
