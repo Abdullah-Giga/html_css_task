@@ -10,25 +10,25 @@
 </head>
 <body>
     <div class="container">
-        <nav>
+        <nav id="nav" class="navbar">
             <div class="logo">
                 <h1>GIGA<span class="secondary">LABS</span></h1>
             </div>
             <div class="buttons">
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
-                <a href="#">About</a>
-                <a href="#">Testimony</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
+                <a href="#home" class="home">Home</a>
+                <a href="#services" class="services">Services</a>
+                <a href="#projects" class="projects">Projects</a>
+                <a href="#about" class="about">About</a>
+                <a href="#testimonies" class="testimonies">Testimony</a>
+                <a href="#blog" class="blog">Blog</a>
+                <a href="#contact" class="contact">Contact</a>
             </div>
             <div class="menu">
                 <img src="./assets/menu.svg" class ="menu_icon"/>
                 <p>Menu</p>
             </div>
         </nav>
-        <section class="section1">
+        <section class="section1" id="home">
             <div class="welcome2">
                 <p>WELCOME TO THE GIGALABS</p>
             </div>
@@ -50,7 +50,7 @@
                 <img src="./assets/section01_1.jpg" alt="introduction image">
             </div>
         </section>
-        <section class="section2">
+        <section class="section2" id="services">
                 <div class="side-menu">
                     <ul>
                         <li><i class="fa-solid fa-box-open"></i><h2>Business Strategy</h2><div class="anim_def"></div></li>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
         </section>
-        <section class="section3">
+        <section class="section3" id="services">
             <div class="bg-img">
                 <div class="cards">
                     <div class="card1">
@@ -126,7 +126,7 @@
                 </div>
             </div>
         </section>
-        <section class="section4">
+        <section class="section4" id="projects">
             <div class="text">
                 <h4>ACCOMPLISHMENTS</h4>
                 <h1>OUR PROJECTS</h1>
@@ -156,7 +156,7 @@
                 </div>
             </div>
         </section>
-        <section class="section5">
+        <section class="section5" id="about">
             <div class="image">
                 <img src="./assets/section05_1.jpg">
             </div>
@@ -180,7 +180,7 @@
                 </div>
             </div>
         </section>
-        <section class="section6">
+        <section class="section6" id="about">
             <div class="text">
                 <h2>ABOUT US</h2>
                 <h1>OUR STAFF</h1>
@@ -246,7 +246,7 @@
                 
             </div>
         </section>
-        <section class="section7">
+        <section class="section7" id="testimonies">
             <div class="text">
                 <h1>HAPPY CLIENTS</h1>
             </div>
@@ -292,7 +292,7 @@
             </div>
         </div>
         </section>
-        <section class="section8">
+        <section class="section8" id="blog">
             <div class="text">
                 <h2>BLOG</h2>
                 <h1>OUR BLOG</h1>
@@ -379,7 +379,7 @@
                 </div>
             </div>
         </section>
-        <section class="section9">
+        <section class="section9" id="contact">
             <div class="text">
                 <h2>CONTACT</h2>
                 <h1>CONTACT US</h1>
@@ -483,6 +483,9 @@
             </div>
         </footer>
     </div>
+    
     <script src="https://kit.fontawesome.com/8bdefc992b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./testtask.js"></script>
 </body>
 </html>
