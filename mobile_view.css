@@ -24,10 +24,14 @@
 
     .menu_icon{
         fill: lightgray;
-        background-color: white;
+        /* background-color: white; */
         width: 20px;
         height: auto;
         margin: 0px 10px;
+    }
+    .menu img{
+        display: block;
+        filter: invert(74%) sepia(84%) saturate(1%) hue-rotate(342deg) brightness(100%) contrast(89%);
     }
     .menu p{
         color: lightgray;
